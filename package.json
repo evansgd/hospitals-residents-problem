@@ -1,0 +1,30 @@
+{
+    "name": "hospitals-residents-problem",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Implementation of the hospitals-residents algorithm (Gale-Shapley)",
+    "main": "index.js",
+    "scripts": {
+        "hr": "node index.js",
+        "test": "mocha test/*.test.js",
+        "prettier:check": "prettier --check .",
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix ."
+    },
+    "keywords": [
+        "stable",
+        "marriage",
+        "game",
+        "theory",
+        "Gale-Shapeley"
+    ],
+    "author": "Evans G",
+    "license": "GNU GPLv3",
+    "devDependencies": {
+        "chai": "^4.3.6",
+        "eslint": "^8.17.0",
+        "eslint-config-prettier": "^8.5.0",
+        "mocha": "^10.0.0",
+        "prettier": "^2.6.2"
+    }
+}
